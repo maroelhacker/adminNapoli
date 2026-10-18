@@ -186,7 +186,7 @@
     <!-- Script -->
     <script>
         const ADMIN_USERNAME = "admin";
-        const ADMIN_PASSWORD = "123456";
+        const ADMIN_PASSWORD = "321968";
 
         function verifyCredentials() {
             const usernameVal = document.getElementById('adminUsernameInput').value.trim();
@@ -196,7 +196,7 @@
 
             if (usernameVal === ADMIN_USERNAME && passwordVal === ADMIN_PASSWORD) {
                 modal.classList.add('hidden');
-                loadSubmissions();
+              loadSubmissions();
             } else {
                 errorMsg.classList.remove('hidden');
                 document.getElementById('adminPasswordInput').value = '';
